@@ -80,7 +80,7 @@
   }
 
   ul li a:hover,
-  .myname a:hover,
+  .my-name a:hover,
   .fa-solid:hover,
   .fa-brands:hover {
     color: teal;
@@ -500,7 +500,7 @@
     flex-direction: column;
   }
 
-  .myname {
+  .my-name {
     padding-top: 1%;
     padding-bottom: 1%;
   }
