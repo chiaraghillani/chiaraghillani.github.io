@@ -65,11 +65,11 @@
   }
 
   ul li {
-    padding: 0 15px;
+    padding: 0 14px;
   }
 
   ul li:nth-child(4) {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 14px;
   }
 
   a {
@@ -133,7 +133,7 @@
 
   h2 {
     font-family: "BrittanySignature", cursive;
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: lighter;
   }
 
@@ -142,7 +142,7 @@
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 3.5% 0;
     border-top: 3px solid black;
     font-weight: normal;
@@ -185,8 +185,6 @@
 
   .btn,
   input[type=submit] {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
     font-weight: 500;
     color: white;
     background-color: teal;
@@ -314,14 +312,14 @@
 
    .form-row label,
    .legacy-form-row legend {
-     font-size: 1.3em;
+     font-size: 1.1em;
      margin-bottom: 3.5%;
    }
 
    .form-row input,
    .form-row textarea {
      font-family: monospace;
-     font-size: 1.3em;
+     font-size: 1.1em;
    }
 
    .form-row input[type='email']:invalid {
@@ -341,12 +339,12 @@
 
    .legacy-form-row .radio-label {
      display: block;
-     font-size: 1.2em;
+     font-size: 1.1em;
      padding: 0 5% 0 2%;
    }
 
    .legacy-form-row input[type='radio'] {
-     margin-top: 10px;
+     margin-top: 6px;
    }
 
    .radio-content {
@@ -400,7 +398,7 @@
   }
 
   ul li:nth-child(4) {
-    padding: 0 15px;
+    padding: 0 14px;
   }
 
 /* Prima sezione: WELCOME */
@@ -445,7 +443,7 @@
 
   .btn,
   input[type=submit] {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
 /* Quarta sezione: CONTACT */
@@ -467,8 +465,12 @@
   }
 
   .legacy-form-row .radio-label {
-    font-size: 0.75em;
+    font-size: 0.7em;
     margin-top: 7px;
+  }
+
+  .legacy-form-row input[type='radio'] {
+    margin-top: 9px;
   }
 
   .message {
