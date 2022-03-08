@@ -259,7 +259,8 @@
   }
 
   .project1,
-  .project2 {
+  .project2,
+  .project3 {
      background-image: url("../img/backgroundcopywriting.jpg");
      background-position: center;
      background-repeat: no-repeat;
@@ -273,6 +274,10 @@
 
    .project2 {
      background-image: url("../img/backgroundgrafica.jpg");
+   }
+
+   .project3 {
+     background-image: url("../img/backgroundwebdesign.jpg");
    }
 
 /* Quarta sezione: CONTACT */
