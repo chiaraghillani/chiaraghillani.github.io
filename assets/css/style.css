@@ -116,13 +116,11 @@
     min-height: 90vh;
     color: black;
     text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
   }
 
   .welcome-img {
-    background-image: url("../img/welcomeimg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     z-index: -999;
     position: absolute;
     top: 0;
@@ -261,7 +259,8 @@
   .project1,
   .project2,
   .project3,
-  .project4 {
+  .project4,
+  .project5 {
      background-image: url("../img/backgroundcopywriting.jpg");
      background-position: center;
      background-repeat: no-repeat;
@@ -283,6 +282,10 @@
 
    .project4 {
      background-image: url("../img/backgrounddiscovery.jpg")
+   }
+
+   .project5 {
+     background-image: url("../img/backgroundwireframe.jpg")
    }
 
 /* Quarta sezione: CONTACT */
